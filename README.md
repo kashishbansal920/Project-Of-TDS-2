@@ -1,40 +1,47 @@
-# Automated Data Analysis Tool Overview
+Automated Data Analysis Tool
+Overview
+The Automated Data Analysis Tool is an advanced solution designed to streamline the process of analyzing datasets, generating insights, and visualizing results with minimal user intervention. It supports a wide range of datasets and provides comprehensive reports, including statistical summaries, correlation analysis, and visualizations. Additionally, the tool leverages OpenAI's models to create detailed narrative insights based on the analysis outcomes.
 
-The **Automated Data Analysis Tool** is designed to make data analysis quick and efficient with minimal input from the user. It supports a variety of datasets and offers a comprehensive suite of features, including statistical summaries, correlation analysis, and visualizations. Additionally, it leverages OpenAI’s models to generate readable insights from the data.
+Features
+Automated Data Loading: Simply upload a dataset, and the system will automatically load, analyze, and process the data.
+Summary Statistics: The tool generates detailed statistical summaries for both numerical and categorical data, giving insights into distribution, trends, and relationships.
+Data Visualizations: Automatically generates various visualizations (e.g., correlation heatmaps, distribution plots) and saves them as PNG files for easy sharing and reporting.
+Narrative Generation: Utilizes OpenAI's API to generate human-readable, insightful narratives based on the analysis results, making complex data easier to understand.
+Datasets Analyzed
+The tool has been applied to several datasets to demonstrate its capabilities:
 
-## Key Features
+Goodreads Dataset:
 
-- **Automatic Data Import**: Simply upload your dataset, and the tool will handle the loading and analysis process automatically.
-- **Statistical Summary**: Generates key statistics for both numerical and categorical data, providing insights into distributions, patterns, and relationships.
-- **Data Visualizations**: Automatically creates visualizations like heatmaps and distribution plots, saving them as PNG files for easy sharing.
-- **Narrative Insights**: Uses OpenAI's models to turn the analysis results into understandable narrative insights.
+Analyzes books, ratings, authors, and genres.
+Provides insights into book ratings, the popularity of genres, and author profiles.
+Media Dataset:
 
-## Supported Datasets
+Examines media views, ratings, and genres.
+Delivers insights into media consumption patterns, popularity, and audience preferences.
+Happiness Dataset:
 
-- **Goodreads Dataset**: Analyzes books, ratings, authors, and genres, offering insights into rating trends, genre popularity, and author details.
-- **Media Dataset**: Analyzes media content, including views, ratings, and genres, providing insights into audience preferences and media consumption.
-- **Happiness Dataset**: Examines happiness scores based on factors like income, education, and social support, offering insights into global happiness trends and contributing factors.
+Evaluates happiness scores based on income, education, and social support by country.
+Offers insights into global happiness trends and factors influencing well-being.
+How to Use
+1. Upload Dataset
+To begin using the tool, simply upload your dataset. The system supports a variety of formats, including CSV, Excel, and JSON.
 
-## How to Use
+2. Data Analysis
+Once the dataset is uploaded, the tool will automatically load and begin the analysis. The following processes will be carried out:
 
-### 1. Upload Dataset
-Choose a dataset in formats such as CSV, Excel, or JSON and upload it.
+Data Cleaning: The tool checks for missing values, duplicates, and other inconsistencies.
+Statistical Summaries: The system generates summary statistics for all numerical and categorical columns, including mean, median, mode, standard deviation, and more.
+Correlation Analysis: The tool calculates correlation coefficients to reveal relationships between numerical variables.
+Data Visualizations: Visualizations such as distribution plots, box plots, and heatmaps are generated for a better understanding of the data.
+3. Insights & Reporting
+After the analysis is complete, the tool will generate:
 
-### 2. Analysis Process
-The tool automatically:
-- Cleans the data (handles missing values and duplicates)
-- Computes summary statistics (mean, median, standard deviation, etc.)
-- Analyzes correlations between numerical features
-- Generates data visualizations (e.g., plots, box plots, heatmaps)
+Statistical Summary Report: A detailed summary of all calculated statistics.
+Visualizations: All generated charts are saved as PNG files for easy sharing and inclusion in reports.
+Narrative Insights: Using OpenAI’s models, the tool produces a written analysis summarizing key findings, trends, and insights from the data.
+4. Save and Export
+Once the analysis is complete, you can:
 
-### 3. Generate Reports
-Once the analysis is complete, the tool produces:
-- **Statistical Summary**: A detailed report with all calculated statistics.
-- **Visualizations**: Downloadable PNG files of the charts created.
-- **Narrative Insights**: A written summary of key findings and patterns.
-
-### 4. Export Results
-After the analysis, you can:
-- Download the statistical summary as a text or CSV file.
-- Save the visualizations as PNG files.
-- Export the generated narrative report.
+Download the statistical summary as a text or CSV file.
+Download the generated visualizations as PNG files.
+Export the generated narrative report.
